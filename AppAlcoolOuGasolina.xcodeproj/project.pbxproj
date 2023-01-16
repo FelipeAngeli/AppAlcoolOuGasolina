@@ -16,9 +16,15 @@
 		5545E4C1295A048100AEB0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5545E4BF295A048100AEB0AC /* LaunchScreen.storyboard */; };
 		5545E4CE295A14CF00AEB0AC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545E4CD295A14CF00AEB0AC /* HomeScreen.swift */; };
 		5590A10629685CAD00D002FC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590A10529685CAD00D002FC /* Alert.swift */; };
+		5598B2732974354F00D97F25 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B2722974354F00D97F25 /* ResultVC.swift */; };
+		5598B2762974359B00D97F25 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B2752974359B00D97F25 /* ResultScreen.swift */; };
+		5598B279297588B300D97F25 /* UiTextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B278297588B300D97F25 /* UiTextField + Extension.swift */; };
+		5598B27B29758E1600D97F25 /* UiViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B27A29758E1600D97F25 /* UiViewController + Extension.swift */; };
+		6892CD94A4ECFA1122E2BC6C /* Pods_AppAlcoolOuGasolina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676D5E6D727B736891FAECF9 /* Pods_AppAlcoolOuGasolina.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FCCAB9D63EAB8E3FED10354 /* Pods-AppAlcoolOuGasolina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAlcoolOuGasolina.debug.xcconfig"; path = "Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina.debug.xcconfig"; sourceTree = "<group>"; };
 		552BB66C2966123E0033FBE1 /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
 		552BB66F296613760033FBE1 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 		5545E4B1295A048000AEB0AC /* AppAlcoolOuGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolOuGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +36,12 @@
 		5545E4C2295A048100AEB0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5545E4CD295A14CF00AEB0AC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		5590A10529685CAD00D002FC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5598B2722974354F00D97F25 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		5598B2752974359B00D97F25 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		5598B278297588B300D97F25 /* UiTextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiTextField + Extension.swift"; sourceTree = "<group>"; };
+		5598B27A29758E1600D97F25 /* UiViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController + Extension.swift"; sourceTree = "<group>"; };
+		676D5E6D727B736891FAECF9 /* Pods_AppAlcoolOuGasolina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAlcoolOuGasolina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851E67687669C7D82E067265 /* Pods-AppAlcoolOuGasolina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAlcoolOuGasolina.release.xcconfig"; path = "Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6892CD94A4ECFA1122E2BC6C /* Pods_AppAlcoolOuGasolina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,8 @@
 			children = (
 				5545E4B3295A048000AEB0AC /* AppAlcoolOuGasolina */,
 				5545E4B2295A048000AEB0AC /* Products */,
+				ABD9DDD1F8CF7EE26FAF55A2 /* Pods */,
+				A4BE5825A405F8E7B5E68D23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,8 @@
 		5545E4B3295A048000AEB0AC /* AppAlcoolOuGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				5598B2772975887B00D97F25 /* Extension */,
+				5598B2712974350000D97F25 /* Result */,
 				5590A10429685C7300D002FC /* Alert */,
 				552BB66B296611DB0033FBE1 /* Calculator */,
 				5545E4C8295A141B00AEB0AC /* Home */,
@@ -116,6 +133,49 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		5598B2712974350000D97F25 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				5598B2742974356C00D97F25 /* Screen */,
+				5598B2722974354F00D97F25 /* ResultVC.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		5598B2742974356C00D97F25 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5598B2752974359B00D97F25 /* ResultScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5598B2772975887B00D97F25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5598B278297588B300D97F25 /* UiTextField + Extension.swift */,
+				5598B27A29758E1600D97F25 /* UiViewController + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A4BE5825A405F8E7B5E68D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				676D5E6D727B736891FAECF9 /* Pods_AppAlcoolOuGasolina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD9DDD1F8CF7EE26FAF55A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FCCAB9D63EAB8E3FED10354 /* Pods-AppAlcoolOuGasolina.debug.xcconfig */,
+				851E67687669C7D82E067265 /* Pods-AppAlcoolOuGasolina.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5545E4C5295A048100AEB0AC /* Build configuration list for PBXNativeTarget "AppAlcoolOuGasolina" */;
 			buildPhases = (
+				74E9DBEE7FEA29733F6D71FE /* [CP] Check Pods Manifest.lock */,
 				5545E4AD295A048000AEB0AC /* Sources */,
 				5545E4AE295A048000AEB0AC /* Frameworks */,
 				5545E4AF295A048000AEB0AC /* Resources */,
+				173E5C02E90680DAA13A0697 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,18 +243,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		173E5C02E90680DAA13A0697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E9DBEE7FEA29733F6D71FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppAlcoolOuGasolina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5545E4AD295A048000AEB0AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				552BB66D2966123E0033FBE1 /* CalculatorVC.swift in Sources */,
+				5598B2732974354F00D97F25 /* ResultVC.swift in Sources */,
 				5545E4CE295A14CF00AEB0AC /* HomeScreen.swift in Sources */,
 				5545E4B9295A048000AEB0AC /* HomeVC.swift in Sources */,
+				5598B2762974359B00D97F25 /* ResultScreen.swift in Sources */,
+				5598B27B29758E1600D97F25 /* UiViewController + Extension.swift in Sources */,
 				5545E4B5295A048000AEB0AC /* AppDelegate.swift in Sources */,
 				5545E4B7295A048000AEB0AC /* SceneDelegate.swift in Sources */,
 				552BB670296613760033FBE1 /* CalculatorScreen.swift in Sources */,
 				5590A10629685CAD00D002FC /* Alert.swift in Sources */,
+				5598B279297588B300D97F25 /* UiTextField + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +434,7 @@
 		};
 		5545E4C6295A048100AEB0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCCAB9D63EAB8E3FED10354 /* Pods-AppAlcoolOuGasolina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -355,6 +464,7 @@
 		};
 		5545E4C7295A048100AEB0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851E67687669C7D82E067265 /* Pods-AppAlcoolOuGasolina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

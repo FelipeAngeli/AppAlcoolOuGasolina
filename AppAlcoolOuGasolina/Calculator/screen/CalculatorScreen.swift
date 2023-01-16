@@ -51,6 +51,7 @@ class CalculatorScreen: UIView {
         tf.keyboardType = .decimalPad
         tf.placeholder = "Preço do Álcool"
         tf.textColor = .darkGray
+        tf.addDoneButtonOnKeyboard()
         return tf
     }()
     
@@ -63,6 +64,7 @@ class CalculatorScreen: UIView {
         tf.keyboardType = .decimalPad
         tf.placeholder = "Preço da Gasolina"
         tf.textColor = .darkGray
+        tf.addDoneButtonOnKeyboard()
         return tf
     }()
     
@@ -74,7 +76,7 @@ class CalculatorScreen: UIView {
         button.setTitleColor(.white, for: .normal)
         button.clipsToBounds = true
         button.layer.cornerRadius = 8
-        button.backgroundColor = UIColor(red: 128/255, green: 128/255, blue: 128/255, alpha: 1.0)
+        button.backgroundColor = UIColor(red: 230/255, green: 0/255, blue: 127/255, alpha: 1.0)
         button.addTarget(self, action: #selector(tappedCalculateButton), for: .touchUpInside)
         return button
     }()

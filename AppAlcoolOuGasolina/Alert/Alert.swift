@@ -22,6 +22,4 @@ class Alert {
         controller.present(alertController, animated: true)
     }
     
-    
-    
 }

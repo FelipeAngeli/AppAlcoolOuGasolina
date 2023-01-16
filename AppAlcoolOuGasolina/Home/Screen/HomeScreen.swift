@@ -38,7 +38,7 @@ class HomeScreen: UIView {
     lazy var startButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Comçar", for: .normal)
+        button.setTitle("Começar", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .bold)
         button.setTitleColor(.white, for: .normal)
         button.clipsToBounds = true
