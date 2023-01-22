@@ -1,6 +1,6 @@
 # AppAlcoolOuGasolina #swift #BackFront Academy
 
-Projeto Álcool ou Gasolina, construído nas aulas da BackFront Academy, utilizando a linguagem Swift e o frameword UIKit.
+Projeto Álcool ou Gasolina, construído nas aulas da BackFront Academy, utilizando a linguagem Swift o frameword UIKit e construção de tela ViewCode.
 
 
 
